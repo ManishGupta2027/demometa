@@ -7,15 +7,16 @@
   <script src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
   <link href="./bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assest/css/style.css" rel="stylesheet">
   <title>Index_Page</title>
 </head>
 
 <body>
-  <main>
-    <div class="row bg-danger text-white mx-auto">
-      <div class="col-4 col-sm-12 col-md-6 col-lg-4 ">
-        <p class=""> <button class="rounded-4 px-3"> HOT </button> ✌Free Express Shipping on orders $200!</p>
-      </div>
+
+  <!-- <div class="row bg-danger text-white mx-auto">
+    <div class="col-4 col-sm-12 col-md-6 col-lg-4 ">
+      <p class=""> <button class="rounded-4 px-3"> HOT </button> ✌Free Express Shipping on orders $200!</p>
+    </div>
       <div class="col-2 col-sm-12 col-md-6 col-lg-2">
       </div>
       <div class="col-4 col-sm-12 col-md-6 col-lg-4 my-2">
@@ -45,45 +46,47 @@
             d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
         </svg>
       </div>
-    </div>
+    </div> -->
+    <!-- remove boostrap icons  -->
+  <header class="">
+    <!-- Nav bar start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="row justify-content-evenly">
-        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-          <img src="./Index images/dark-logo.png" alt="" class="img-fluid">
-        </div>
-        <div class="col-6 col-sm-12 col-md-6 col-lg-6">
-          <form class="d-flex" role="search">
-            <div class="dropdown">
-              <button class="btn  dropdown-toggle my-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                All Categories
-              </button>
-              <ul class="dropdown-menu my-2">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div>
-            <input class="form-control" type="search" placeholder="Search Product" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="26" fill="currentColor"
-                class="bi bi-search my-2" viewBox="0 0 16 16">
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-              </svg></button>
-          </form>
-        </div>
-        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-            class="bi bi-person my-2 mx-3 float-end" viewBox="0 0 16 16">
-            <path
-              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-            class="bi bi-bag my-2 mx-3 float-end" viewBox="0 0 16 16">
-            <path
-              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-          </svg>
-        </div>
+      <header class="navbar-brand">
+        <img src="./Index images/dark-logo.png" alt="" class="img-fluid">
+      </header>
+      <div class="navbar-collapse">
+        <form class="d-flex">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All Categories
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <input class="form-control" type="search" placeholder="Search Product" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="26" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="float-end">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person mx-3"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag mx-3"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+        </svg>
       </div>
     </nav>
     <div class="row mx-auto">
@@ -152,12 +155,14 @@
         </div>
       </div>
     </div>
-    <div class="row container-fluid">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <img src="./Index images/megastore_slide_01.jpg" alt="" class="img-fluid">
-      </div>
+  </header>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+      <img src="./Index images/megastore_slide_01.jpg" alt="" class="img-fluid">
     </div>
-    <div class="row my-4 container-fluid">
+  </div>
+  <main class="container">
+    <div class="row my-4">
       <div class="col-4 col-sm-12 col-md-6 col-lg-4">
         <img src="./Index images/megastore_banner_01.jpg" alt="" class="img-fluid">
       </div>
@@ -169,223 +174,222 @@
       </div>
     </div>
     <!-- Please add comments to better code understand-->
-    <div class="row container-fluid">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 border">
-        <p>Popular categories 
-        </p>
-        <button class="bg-white text-dark border-white float-end">Shop all categories ›</button>
+    <div class="row">
+      <div class="col-12 mb-3 d-flex justify-content-between">
+        <p class="m-0">Popular categories</p>
+        <a class="bg-white text-dark border-white">Shop all categories</a>
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2 pb-1">
-        <img src="./Index images/cat-sneakers-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-sneakers-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-men-coats-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-men-coats-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-socks-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-socks-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-backpacks-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-backpacks-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-cardigan-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-cardigan-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-outerwear-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-outerwear-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-leather-bags-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-leather-bags-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-women-pants-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-women-pants-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-leather-bags-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-leather-bags-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-straight-fit-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-straight-fit-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-outerwear-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-outerwear-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="col-2 col-sm-12 col-md-3 col-lg-2">
-        <img src="./Index images/cat-sneakers-80x80.jpg" alt="" class="img-fluid">
+      <div class="col-2 Img-box-border border p-5">
+        <img src="./Index images/cat-sneakers-80x80.jpg" alt="" class="img-fluid rounded-circle">
       </div>
     </div>
-
+  </main>
+  <div class="row container-fluid">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+      <h4 class="my-5">Tranding Collection
+        <button class="bg-white text-dark border-white float-end">Shop all categories ›</button>
+      </h4>
+    </div>
+    <div class="row container-fluid">
+      <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+        <img src="./Index images/megastore_box_01.jpg" alt="" class="img-fluid">
+        <h4 class="text-center">The Oversized Alpaca Crew</h4>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+        <img src="./Index images/megastore_box_02.jpg" alt="" class="img-fluid">
+        <h4 class="text-center">The Premium-Weight Crew</h4>
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+        <img src="./Index images/megastore_box_03.jpg" alt="" class="img-fluid">
+        <h4 class="text-center">The Forever High-Top</h4>
+      </div>
+    </div>
+    <div class="row container-fluid">
+      <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+        <img src="./Index images/megastore_banner_04.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+        <img src="./Index images/product_megastore_01_1.jpg" alt="" class="img-fluid">
+        <h5>The High Ankle Glove</h5>
+        <h5>Boot IN ReKnit</h5>
+        <h5>$140.00</h5>
+        <button>Add To Card</button>
+      </div>
+      <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+        <img src="./Index images/product_megastore_09_1.jpg" alt="" class="img-fluid">
+        <h5>The High Ankle Glove</h5>
+        <h5>Boot IN ReKnit</h5>
+        <h5>$140.00</h5>
+        <button>Add To Card</button>
+      </div>
+      <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+        <img src="./Index images/product_megastore_10_1.jpg" alt="" class="img-fluid">
+        <h5>The High Ankle Glove</h5>
+        <h5>Boot IN ReKnit</h5>
+        <h5>$140.00</h5>
+        <button>Add To Card</button>
+      </div>
+      <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+        <img src="./Index images/product_megastore_13_1.jpg" alt="" class="img-fluid">
+        <h5>The High Ankle Glove</h5>
+        <h5>Boot IN ReKnit</h5>
+        <h5>$140.00</h5>
+        <button>Add To Card</button>
+      </div>
+    </div>
     <div class="row container-fluid">
       <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-        <h4 class="my-5">Tranding Collection
+        <h4 class="my-5">Features Product false
           <button class="bg-white text-dark border-white float-end">Shop all categories ›</button>
         </h4>
       </div>
       <div class="row container-fluid">
-        <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-          <img src="./Index images/megastore_box_01.jpg" alt="" class="img-fluid">
-          <h4 class="text-center">The Oversized Alpaca Crew</h4>
-        </div>
-        <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-          <img src="./Index images/megastore_box_02.jpg" alt="" class="img-fluid">
-          <h4 class="text-center">The Premium-Weight Crew</h4>
-        </div>
-        <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-          <img src="./Index images/megastore_box_03.jpg" alt="" class="img-fluid">
-          <h4 class="text-center">The Forever High-Top</h4>
-        </div>
-      </div>
-      <div class="row container-fluid">
-        <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-          <img src="./Index images/megastore_banner_04.jpg" alt="" class="img-fluid">
-        </div>
         <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-          <img src="./Index images/product_megastore_01_1.jpg" alt="" class="img-fluid">
+          <img src="./Index images/product_megastore_16_1.jpg" alt="" class="img-fluid">
           <h5>The High Ankle Glove</h5>
-          <h5>Boot IN ReKnit</h5>
-          <h5>$140.00</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
           <button>Add To Card</button>
         </div>
         <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-          <img src="./Index images/product_megastore_09_1.jpg" alt="" class="img-fluid">
+          <img src="./Index images/product_megastore_16_2.jpg" alt="" class="img-fluid">
           <h5>The High Ankle Glove</h5>
-          <h5>Boot IN ReKnit</h5>
-          <h5>$140.00</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
           <button>Add To Card</button>
         </div>
         <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-          <img src="./Index images/product_megastore_10_1.jpg" alt="" class="img-fluid">
+          <img src="./Index images/product_megastore_17_4n.jpg" alt="" class="img-fluid">
           <h5>The High Ankle Glove</h5>
-          <h5>Boot IN ReKnit</h5>
-          <h5>$140.00</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+          <img src="./Index images/product_megastore_14_2.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2">
+          <img src="./Index images/product_megastore_18_1.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
           <button>Add To Card</button>
         </div>
         <div class="col-2 col-sm-12 col-md-6 col-lg-2">
           <img src="./Index images/product_megastore_13_1.jpg" alt="" class="img-fluid">
           <h5>The High Ankle Glove</h5>
-          <h5>Boot IN ReKnit</h5>
-          <h5>$140.00</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_13_1.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_13_2.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_16_1.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_16_2.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_17_4n.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
+          <button>Add To Card</button>
+        </div>
+        <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
+          <img src="./Index images/product_megastore_14_2.jpg" alt="" class="img-fluid">
+          <h5>The High Ankle Glove</h5>
+          <h6>Boot IN ReKnit</h6>
+          <h6>$140.00</h6>
           <button>Add To Card</button>
         </div>
       </div>
-      <div class="row container-fluid">
+      <div class="row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-          <h4 class="my-5">Features Product false
-            <button class="bg-white text-dark border-white float-end">Shop all categories ›</button>
-          </h4>
+          <img src="./Index images/banner.jpg" alt="" class="img-fluid">
         </div>
-        <div class="row container-fluid">
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_16_1.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_16_2.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_17_4n.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_14_2.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_18_1.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2">
-            <img src="./Index images/product_megastore_13_1.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_13_1.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_13_2.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_16_1.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_16_2.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_17_4n.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
-          <div class="col-2 col-sm-12 col-md-6 col-lg-2 my-4">
-            <img src="./Index images/product_megastore_14_2.jpg" alt="" class="img-fluid">
-            <h5>The High Ankle Glove</h5>
-            <h6>Boot IN ReKnit</h6>
-            <h6>$140.00</h6>
-            <button>Add To Card</button>
-          </div>
+      </div>
+      <div class="row container-fluid my-5">
+        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+          <img src="./Index images/icon_box_free_ship.png" alt="" class="img-fluid">
+          <h6>Free Shipping</h6>
+          <h6>Free Shipping for orders over £130</h6>
         </div>
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-12">
-            <img src="./Index images/banner.jpg" alt="" class="img-fluid">
-          </div>
+        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+          <img src="./Index images/icon_box_money_guarantee.png" alt="" class="img-fluid">
+          <h6>Free Shipping</h6>
+          <h6>Free Shipping for orders over £130</h6>
         </div>
-        <div class="row container-fluid my-5">
-          <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-            <img src="./Index images/icon_box_free_ship.png" alt="" class="img-fluid">
-            <h6>Free Shipping</h6>
-            <h6>Free Shipping for orders over £130</h6>
-          </div>
-          <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-            <img src="./Index images/icon_box_money_guarantee.png" alt="" class="img-fluid">
-            <h6>Free Shipping</h6>
-            <h6>Free Shipping for orders over £130</h6>
-          </div>
-          <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-            <img src="./Index images/icon_box_payment.png" alt="" class="img-fluid">
-            <h6>Free Shipping</h6>
-            <h6>Free Shipping for orders over £130</h6>
-          </div>
-          <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-            <img src="./Index images/icon_box_support.png" alt="" class="img-fluid">
-            <h6>Free Shipping</h6>
-            <h6>Free Shipping for orders over £130</h6>
-          </div>
+        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+          <img src="./Index images/icon_box_payment.png" alt="" class="img-fluid">
+          <h6>Free Shipping</h6>
+          <h6>Free Shipping for orders over £130</h6>
         </div>
-  </main>
+        <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+          <img src="./Index images/icon_box_support.png" alt="" class="img-fluid">
+          <h6>Free Shipping</h6>
+          <h6>Free Shipping for orders over £130</h6>
+        </div>
+      </div>
+
 </body>
 <!-- This is a footer of this web page -->
 <footer class="style my-5 bg-dark text-white">
