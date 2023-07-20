@@ -8,6 +8,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
   <link href="./bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assest/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>Index_Page</title>
 </head>
 
@@ -50,11 +51,21 @@
     <!-- remove boostrap icons-->
   <header class="">
     <!-- Nav bar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <header class="navbar-brand">
-        <img src="./Index images/dark-logo.png" alt="" class="img-fluid">
-      </header>
-      <div class="navbar-collapse">
+    <nav class="row my-3">
+      <div class="col-3">
+        <img src="./Index images/dark-logo.png" alt="" class="mx-4 img-fluid w-50">
+      </div>
+      <div class="col-6 my-auto">
+        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+        <div class="input-group">
+          <button class="input-group-text">All Categories</button>
+          <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+          <div class="input-group-text bg-black">
+            <i class="text-white fa-solid fa-magnifying-glass"></i>
+          </div>        
+        </div>
+      </div>
+      <!-- <div class="navbar-collapse">
         <form class="d-flex">
           <div class="dropdown">
             <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,32 +86,19 @@
             </svg>
           </button>
         </form>
-      </div>
-      <div class="float-end">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person mx-3"
-          viewBox="0 0 16 16">
-          <path
-            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag mx-3"
-          viewBox="0 0 16 16">
-          <path
-            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-        </svg>
+      </div> -->
+      <div class="col-3 my-auto">
+        <i class="mx-2 float-end fa-solid fa-bag-shopping fa-lg"></i>
+        <i class="mx-2 float-end fa-regular fa-user fa-lg"></i>
       </div>
     </nav>
     <div class="row mx-auto">
-      <div class="col-4 col-sm-12 col-md-6 col-lg-4 my-2">
+      <div class="col-4 col-sm-12text-dark  col-md-6 col-lg-4 my-2">
         <div class="dropdown">
-          <button class="btn btn-close-white dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          <button class="mx-2 btn btn-close-white dropdown-toggle bg-black" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
-              viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-            <b>Shop By Categories</b>
+            <i class="text-white fa-solid fa-bars"></i>
+            <b class="text-white">Shop By Categories</b>
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Best Sellers</a></li>
@@ -121,19 +119,19 @@
         <nav class="navbar navbar-expand-lg">
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="text-dark nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <b>Demo</b>
               </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="text-dark nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <b>Shop</b>
               </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="text-dark nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <b>Product</b>
               </a>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="text-dark nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <b>Page</b>
               </a>
@@ -156,6 +154,7 @@
       </div>
     </div>
   </header>
+  <!-- Main banner -->
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 main-banner">
       <img src="./Index images/megastore_slide_01.jpg" alt="" class="img-fluid">
