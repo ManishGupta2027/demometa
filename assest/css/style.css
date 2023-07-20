@@ -3,3 +3,8 @@
     /* box-shadow: 1px 0 0 0 var(--border-color__base), 0 1px 0 0 var(--border-color__base), 1px 1px 0 0 var(--border-color__base), 1px 0 0 0 var(--border-color__base) inset, 0 1px 0 0 var(--border-color__base) inset; */
     /* padding: 27px 20px; */
   }
+.main-banner{
+
+  min-height: 490px;
+
+}
