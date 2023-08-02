@@ -8,3 +8,68 @@
   min-height: 490px;
 
 }
+.container{
+  height:auto;
+  position:relative;
+  width: auto;
+}
+.one{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:30%;
+  left: 30%; 
+}
+.two{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:0;
+  left:2%; 
+}
+.three{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:0;
+  left:36%; 
+}
+.four{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:0;
+  left:69%; 
+}
+.five{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:10%;
+  left:2%; 
+}
+.six{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:25%;
+  left:3%; 
+}
+.seven{
+  height:auto;
+  width: auto;
+  position:absolute;
+  top:25%;
+  left:120%; 
+}
+.eight{
+  height:auto;
+  width: 100%;
+  position:absolute;
+  top:20%;
+  left:180%; 
+}
+
+
+
+
